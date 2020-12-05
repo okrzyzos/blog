@@ -1,0 +1,194 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {}
+
+header nav {
+    background-color: #46a2d9;
+    font: 1em;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: 300;
+    margin: 40px 0;
+}
+
+h3 {
+    margin: 5px 0;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+header a:hover {
+    color: #fff;
+}
+
+img {
+    width: 100%;
+    /* height: 400px; */
+}
+
+.image-wrapper {
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+}
+
+.main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 2px;
+    border: 1px solid #dddddd;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+}
+
+.sidebar {
+    width: 25%;
+    float: right;
+    margin-top: 25px;
+}
+
+.sidebar ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.sidebar ul {
+    padding: 0 10px 0 0;
+    margin: 0;
+    font-weight: 300;
+}
+
+.sidebar h4 {
+    font-size: 1.25em;
+    font-weight: 400;
+    margin: 40px 0 12px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    transition: color .3s ease;
+}
+
+a:hover {
+    color: #46a2d9;
+}
+
+.article {
+    width: 335px;
+    display: inline-block;
+    margin: 25px;
+}
+
+p {
+    margin: 10px 0 0 0;
+    font-weight: 300;
+}
+
+.date {
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+input,
+textarea {
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    padding: 8px 14px;
+    font-family: Roboto, sans-serif;
+}
+
+.sidebar input[type=text] {
+    width: 65%;
+}
+
+input[type=submit] {
+    background: #46a2d9;
+    border-color: #46a2d9;
+    color: #fff;
+}
+
+.sidebar input[type=submit] {
+    left: -5px;
+    position: relative;
+}
+
+.commentaires textarea {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #46a2d9;
+    color: #fff;
+    padding: 6px 0 10px 0;
+    margin-top: 80px;
+    text-align: center;
+}
+
+article,
+.commentaires {
+    padding: 25px 40px 40px 25px;
+}
+
+.commentaire {
+    margin-top: 35px;
+}
+
+.commentaire p {
+    margin-bottom: 0;
+}
+
+.commentaire .auteur {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+article h2 {
+    margin-bottom: 5px;
+}
+
+article.contenu {
+    margin-top: 25px;
+}
+
+hr {
+    color: #dddddd;
+    width: 60%;
+}
